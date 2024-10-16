@@ -1,4 +1,4 @@
-# This is an example of repo creation code...
+# This is an example of repo creation code
 echo "# week-3-assignment" >> README.md
 git init
 git add README.md
