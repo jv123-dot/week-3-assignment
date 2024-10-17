@@ -1,8 +1,0 @@
-# This is an example of repo creation code
-echo "# week-3-assignment" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/jv123-dot/week-3-assignment.git
-git push -u origin main
