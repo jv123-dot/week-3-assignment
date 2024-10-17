@@ -6,21 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body  class="bg-secondary">
-    <div id="main-container" class="container bg-light">
+<body class="bg-secondary"> <!-- This colors the background gray-->
+    <div id="main-container" class="container bg-light"> <!--This is a background nested? inside the gray background containing all content, it's white-->
         
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark"> <!--this is the navbar at the top of the page, dark in color containing brand "index.html/week3"-->
             <a class="navbar-brand fs-2" href="index.html">Index.html/Week3</a>
         </nav>
-        <nav class="navbar bg-dark justify-content-center">
+        <nav class="navbar bg-dark justify-content-center"> <!--this is a second navbar, underneat the other one containing nav links-->
             <a class="btn btn-primary btn-md me-3" href="index.html" role="button">Home</a>
             <a class="btn btn-primary btn-md me-3" href="page2.html" role="button">Page 2</a>
         </nav> 
             
-             <h1 class="text-center mt-5">Hello!</h1>
-             <h3 class="text-center mt-5">Below is a list of fruits</h3>
+             <h1 class="text-center mt-5">Hello!</h1> <!--this is header-->
+             <h3 class="text-center mt-5">Below is a list of fruits</h3> <!--header above container-->
     
-    <div class="container text-center mb-5 fs-6 border border-primary border border-3">
+    <div class="container text-center mb-5 fs-6 border border-primary border border-3"><!--container with items placed in bootstrap grid, different column sizes-->
         <div class="row">
             <div class="col-md-6">Apple</div>
             <div class="col-md-6">Banana</div>
@@ -38,7 +38,7 @@
 <h4 class="text-center mt-5">What are your favorite fruits?</h4>
 
 <form>
-    <div class="form-group">
+    <div class="form-group"> <!--basic form text area to submit answer-->
         <label for="FruitPreferenceTextArea">Answer in the box Below.</label>
         <textarea class="form-control" id="FruitPreferenceTextArea" rows="3"></textarea>
         <button type="Submit" class="btn btn-info mt-3">Submit</button>
